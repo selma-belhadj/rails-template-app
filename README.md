@@ -1,24 +1,78 @@
-# README
+# Basic Rails App Template
+> This template is a basic Rails application that includes some popular gems and a basic layout. It is intended to be used as a starting point for new Rails projects.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## [Live Demo](https://template.onrender.com/)
 
-Things you may want to cover:
+## Built With
 
-* Ruby version
+- Ruby (version 3.1.2)
+- Ruby on Rails (version 7.0.4.2)
+- PostgreSQL (version 14.4)
 
-* System dependencies
+## Usage
 
-* Configuration
+To use this template, you can either create a new Rails application using the template or use the template to create a new branch in an existing Rails application.
 
-* Database creation
+### Using the template to create a new Rails application
 
-* Database initialization
+To create a new Rails application using this template, run the following command:
+`rails new myapp -m https://github.com/selma-belhadj/rails-template-app.git`
+Replace `myapp` with the name of your new application.
 
-* How to run the test suite
+### Using the template to create a new branch in an existing Rails application
 
-* Services (job queues, cache servers, search engines, etc.)
+To use this template to create a new branch in an existing Rails application, you can use the `git` command line tool.
+`git remote add template https://github.com/selma-belhadj/rails-template-app.git`
+`git fetch template`
+`git checkout -b mybranch template/template`
+Replace `mybranch` with the name of the new branch you want to create.
 
-* Deployment instructions
+## Getting Started
+- Install packages
+  `bundle install`
+- Setup database
+  `rails db:setup`
+- Run migration
+  `rails db:migrate`
+- Run tests
+  `rspec`
+- Tun the server
+  `rails s`
 
-* ...
+
+## Features
+<!-- - Authentication using Devise
+- Authorization using Pundit
+- Forms using Simple Form -->
+- RSpec for testing
+- Bootstrap for layout and styling
+
+## Authors
+
+👤 **Selma Belhadj**
+
+- GitHub: [@selma-belhadj](https://github.com/selma-belhadj)
+- Twitter: [@selma_bel_hadj](https://twitter.com/selma_bel_hadj)
+- LinkedIn: [@selma-belhadj](https://www.linkedin.com/in/selma-belhadj/)
+
+## Customization
+
+You can customize the template to suit your needs by modifying the `config/application.rb`, `config/environments`, `config/routes.rb`, and `app/views` files. 
+
+You can also add or remove gems as needed. Be sure to run `bundle install` after making changes to the Gemfile.
+
+## 🤝 Contributing
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/selma-belhadj/rails-template-app/issues).
+
+If you would like to contribute to this template, please fork the repository and submit a pull request.
+
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.
