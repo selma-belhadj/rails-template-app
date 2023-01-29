@@ -22,9 +22,9 @@ Replace `myapp` with the name of your new application.
 ### Using the template to create a new branch in an existing Rails application
 
 To use this template to create a new branch in an existing Rails application, you can use the `git` command line tool.
-`git remote add template https://github.com/selma-belhadj/rails-template-app.git`
-`git fetch template`
-`git checkout -b mybranch template/template`
+- `git remote add template https://github.com/selma-belhadj/rails-template-app.git`
+- `git fetch template`
+- `git checkout -b mybranch template/template`
 Replace `mybranch` with the name of the new branch you want to create.
 
 ## Getting Started
@@ -32,23 +32,21 @@ Replace `mybranch` with the name of the new branch you want to create.
   `bundle install`
 - Setup database
   `rails db:setup`
-<!-- - Create database
-  `rails db:create`
-- Run migration
-  `rails db:migrate` -->
 - Run tests
   `rspec`
 - Tun the server
   `rails s`
-
+<!-- - Create database
+  `rails db:create`
+- Run migration
+  `rails db:migrate` -->
 
 ## Features
+- RSpec for testing
+- Bootstrap for layout and styling
 <!-- - Authentication using Devise
 - Authorization using Pundit
 - Forms using Simple Form -->
-- RSpec for testing
-- Bootstrap for layout and styling
-
 ## Authors
 
 👤 **Selma Belhadj**
