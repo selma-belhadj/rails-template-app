@@ -32,8 +32,10 @@ Replace `mybranch` with the name of the new branch you want to create.
   `bundle install`
 - Setup database
   `rails db:setup`
+<!-- - Create database
+  `rails db:create`
 - Run migration
-  `rails db:migrate`
+  `rails db:migrate` -->
 - Run tests
   `rspec`
 - Tun the server
